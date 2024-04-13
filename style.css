@@ -1,0 +1,51 @@
+html {
+  font-family: Oswald, sans-serif;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://img.freepik.com/vector-gratis/conjunto-patrones-flores-frutas-planas_23-2149484593.jpg?');
+  background-size: cover;
+
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+
+display: block;
+margin-right: auto;
+margin-left: auto;
+
+  
+}
+
+.textoCursi {
+background-color: rgba(173, 216, 230, 0.7);
+text-justify: inter-word;
+border: 2px dashed black;
+border-radius: 10px;
+padding: 20px;
+margin: 0 auto;
+}
+
+.button {
+  margin: 0 auto;
+  background-color: #fb89cb; /* Green background color */
+  color: white; /* White text color */
+  padding: 15px 30px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+}
+
+.button:hover {
+  background-color: #a14584; /* Darker green when hovering */
+}
+
+.button:active {
+  background-color: #dc5cff; /* Dark green when button is pressed */
+}
