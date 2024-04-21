@@ -12,6 +12,18 @@ img.center {
   margin-right: auto;
 }
 
+img.right {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+
+img.left {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
 h1 {
 
 display: block;
@@ -58,7 +70,7 @@ margin: 0 auto;
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #a7cefa; /* Black*/
+  background-color: #81b1e7; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -99,3 +111,21 @@ margin: 0 auto;
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+
+.textoAlldle {
+  background-color: rgba(248, 248, 248, 0.7);
+  text-justify: inter-word;
+  border: 5px double black;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 500px;
+  margin-right: 500px;
+  }
+
+  .contenedorimagenes {
+    display: flex;
+  }
+  
